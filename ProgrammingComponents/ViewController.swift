@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     }()
 
     var loginButton: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: .system)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitleColor(.white, for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 20)
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     }()
 
     var skipButton: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: .system)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitleColor(.white, for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 20)
@@ -49,6 +49,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        view.backgroundColor = UIColor(red: 12/255, green: 103/255, blue: 167/255, alpha: 1)
 
         titleLabel.text = "Title"
         captionLabel.text = "Caption"
