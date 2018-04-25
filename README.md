@@ -1,2 +1,2 @@
 # ProgrammaticComponents
-Demo app for my blog post [Better Programmatic Components Using Closures](https://www.google.com)
+### Companion repo to my Medium article [Better Programmatic Components Using Closures](https://www.google.com)
