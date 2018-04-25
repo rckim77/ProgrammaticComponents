@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         return label
     }()
 
-    var loginButton: UIButton =  {
+    var loginButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitleColor(.white, for: .normal)
